@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import TextField from "@material-ui/core/TextField";
 
 import classes from "./Left.module.css";
-import { useForm } from "react-hook-form";
+
 import { ResumeContext } from "../../contexts/ResumeContext";
 
 function Header() {
