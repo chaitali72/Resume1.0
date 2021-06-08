@@ -1,21 +1,16 @@
 import React, { useContext } from "react";
 import TextField from "@material-ui/core/TextField";
-// import Button from "@material-ui/core/Button";
+
 import classes from "./Left.module.css";
 import { useForm } from "react-hook-form";
 import { ResumeContext } from "../../contexts/ResumeContext";
 
 function Header() {
-  const { content, updateHeaderData, removeFakeData } = useContext(
+  const { content } = useContext(
    ResumeContext
   );
 
-  // const { ref, ...rest } = register('red')
-  // const onSubmit = (data) => {
-  //   removeFakeData();
-  //   updateHeaderData(data);
-  // };
-
+  
   return (
     <div className="">
       <h2>Header</h2>
